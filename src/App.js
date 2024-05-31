@@ -46,7 +46,7 @@ function FrmCalculadora() {
         <input type="button" name="Limpar" value="Limpar" onClick={limpar} />
         <input type="submit" name="Calcular" value="Calcular"/><br/><br/>
         <label>Resultado: </label> <br/>
-        <label> {resposta.a} {resposta.operador} {resposta.b} = {resposta.resultado} </label> <br/>
+        <label> {resposta.a} {resposta.operador} {resposta.b} = {resposta.resultado} </label>
     </form>
     )
   }
